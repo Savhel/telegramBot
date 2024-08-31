@@ -1,0 +1,17 @@
+{
+  "name": "telegram",
+  "version": "1.0.0",
+  "description": "project to keep data for shop online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.3",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
